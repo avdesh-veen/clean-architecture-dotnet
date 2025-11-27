@@ -114,7 +114,7 @@ public class Project : AuditableEntity
 ### **Keycloak Integration**
 ```csharp
 // JWT claims extraction with fallback priority
-var userId = GetClaimValue("vitaUserId") ??
+var userId = GetClaimValue("userId") ??
              GetClaimValue(ClaimTypes.NameIdentifier) ??
              GetClaimValue("sub") ??
              GetClaimValue("id");
@@ -188,7 +188,7 @@ HTTP Request → Controller → MediatR Request → Handler → Service → Repo
 8. Add integration tests with tenant isolation verification
 
 ### **Local Development with Aspire**
-- Run `Vita.AdminService.AppHost` for full infrastructure
+- Run `AdminService.AppHost` for full infrastructure
 - Automatic service discovery and container orchestration
 - Includes PostgreSQL, Keycloak, OpenFGA, Temporal, pgAdmin
 

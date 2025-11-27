@@ -16,15 +16,15 @@ This comprehensive documentation showcases the sophisticated architecture, patte
 
 ### **Solution Structure (Clean/Layered Architecture)**
 ```
-Vita.AdminService.Api          # REST + OData controllers, JWT auth, middleware
-Vita.AdminService.Worker       # Background processing, Wolverine messaging, Temporal workflows
-Vita.AdminService.Application  # MediatR handlers, validation, mapping, business services
-Vita.AdminService.Domain       # Entities, value objects, enums, domain events
-Vita.AdminService.Infrastructure # EF Core context, interceptors, repositories, external adapters
-Vita.AdminService.Shared       # Cross-cutting interfaces, constants, extensions
-Vita.AdminService.ServiceDefaults # OpenTelemetry, health checks, service discovery
-Vita.AdminService.AppHost      # .NET Aspire orchestration for local development
-Vita.AdminService.Tests        # Integration tests with Testcontainers
+AdminService.Api          # REST + OData controllers, JWT auth, middleware
+AdminService.Worker       # Background processing, Wolverine messaging, Temporal workflows
+AdminService.Application  # MediatR handlers, validation, mapping, business services
+AdminService.Domain       # Entities, value objects, enums, domain events
+AdminService.Infrastructure # EF Core context, interceptors, repositories, external adapters
+AdminService.Shared       # Cross-cutting interfaces, constants, extensions
+AdminService.ServiceDefaults # OpenTelemetry, health checks, service discovery
+AdminService.AppHost      # .NET Aspire orchestration for local development
+AdminService.Tests        # Integration tests with Testcontainers
 ```
 
 ### **Dependency Flow (Inward Only)**

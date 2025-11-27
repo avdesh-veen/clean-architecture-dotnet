@@ -1,6 +1,6 @@
-# Vita Admin Service - Architecture & Code Standards
+# Admin Service - Architecture & Code Standards
 
-This comprehensive documentation showcases the sophisticated architecture, patterns, and standards used in the **Vita Admin Service** - a multi-tenant ASP.NET Core 9.0 admin service with PostgreSQL, implementing clean architecture with CQRS, advanced multi-tenancy, and enterprise-grade authorization.
+This comprehensive documentation showcases the sophisticated architecture, patterns, and standards used in the **Admin Service** - a multi-tenant ASP.NET Core 9.0 admin service with PostgreSQL, implementing clean architecture with CQRS, advanced multi-tenancy, and enterprise-grade authorization.
 
 ## 🏗️ Architecture Overview
 
